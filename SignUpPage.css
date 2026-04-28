@@ -1,0 +1,31 @@
+.signup-page {
+    position: fixed; /* Ensures full-page coverage */
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: url('/snowflake.jpg') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: rgb(220, 28, 207); /* ✅ Text color changed to dark green */
+}
+
+.signup-link {
+    font-size: 20px;
+    color:rgb(220, 28, 207); /* ✅ Link text in dark green */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.home-icon {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+}
